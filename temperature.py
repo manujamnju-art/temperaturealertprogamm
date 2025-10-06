@@ -1,8 +1,12 @@
-temperature = float(input("Enter the temperature in Celsius: "))
-
-if temperature < 20:
-    print("It's cold ")
-elif 20 <= temperature <= 30:
-    print("It's normal ")
+temp = int(input("Enter the temperature:"))
+if temp<=20:
+    print("Cold")
+elif temp<=35:
+    print("Normal")
 else:
-    print("It's hot ")
+    print("Hot")
+
+celsius = int(input("Enter the temperature in celsius:"))
+fahrenheit = (celsius * 9/5) + 32
+print("The celsius degree in fahrenheit is:",fahrenheit)
+
